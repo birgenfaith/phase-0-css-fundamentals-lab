@@ -3,3 +3,52 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+
+nav a{
+  padding: 10px;
+  border-color: rgb(248, 102, 241);
+  border-radius: 10px;
+  background-color: rgb(248, 102, 241);
+  color: black;
+  text-decoration: none;
+}
+
+nav :hover{
+  background-color: transparent;
+  border: 1.5px solid black;
+  color: black;
+  text-decoration: underline;
+}
+
+img{
+  margin: auto;
+  display: block;
+}
+figcaption{
+  font-size: 20px;
+  text-align: center;
+}
+#featured-property {
+  text-align: center; /* Center all text within #featured-property */
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;  /* Centers the block and adds vertical spacing */
+}
+
+/* FOOTER */
+#details div{
+  float: left;
+  background-color: rgb(230, 83, 181);
+  width: 25%;
+  text-align: center;
+}
+#details a{
+  color: black;
+  text-decoration: none;
+}
+}
